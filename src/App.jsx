@@ -20,7 +20,7 @@ const App = () => {
           element: <About />,
         },
         {
-          path: '/movie',
+          path: '/movies',
           element: <Movie />,
         },
         {

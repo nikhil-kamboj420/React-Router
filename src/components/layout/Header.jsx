@@ -1,33 +1,24 @@
+import { NavLink } from "react-router-dom"
 
 export const Header = ()=>{
     return <>
-   <header class="header">
-      <section class="top-text">
-        <p>Free shipping, 30-day return or refund guarantee.</p>
-        <div class="sing_in_up">
-          <a href="#">Sign In</a>
-          <a href="#">Sign Up </a>
-        </div>
-      </section>
-      {/* <!-- ########### NAV BAR SECTION STARTED ############# --> */}
-      <div class="section-navbar">
-        <div class="brand-logo">
-          <img src="./images/logo2.webp" alt="brand's-logo" />
-        </div>
-        <div class="navbar">
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="./about.html">ABOUT</a></li>
-            <li><a href="./products.html">MOVIES</a></li>
-            <li><a href="./contact.html">CONTACT</a></li>
-            <li class="addToCart">
-              <a href="addToCart.html">
-                <i class="ion--cart"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
+      <header>
+         <div className="bg-[#2a2c30] h-[7vh] text-white text-3xl flex justify-around items-center">
+            <p>Free shipping, 30-day return or refund guarantee.</p>
+            <div className="flex gap-3">
+               <a href="#">Sign In</a>
+               <a href="#">Sign Up</a>
+            </div>
+         </div>
+         <nav className="bg-[#f7f7f7] h-[7vh] text-2xl flex justify-around items-center">
+            <p>KambojFix</p>
+            <ul className="flex justify-around gap-5">
+               <li><NavLink to="/">HOME</NavLink></li>
+               <li><NavLink to="/about">ABOUT</NavLink></li>
+               <li><NavLink to="/movies">MOVIES</NavLink></li>
+               <li><NavLink to="/contact">CONTACT</NavLink></li>
+            </ul>
+         </nav>
+      </header>
    </>
 }
