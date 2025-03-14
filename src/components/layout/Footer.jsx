@@ -1,9 +1,9 @@
 
 export const Footer = ()=>{
     return <>
-        <footer class="footer-container">
-      <div class="footer-content">
-        <div class="footer-box1">
+        <footer className="footer-container">
+      <div className="footer-content">
+        <div className="footer-box1">
           <p>KambojFix</p>
           <p>
             Welcome to Kamboj EcomStore, your ultimate destination for
@@ -11,7 +11,7 @@ export const Footer = ()=>{
           </p>
           <img src="./images/cards.png" alt="image card of payment platforms" />
         </div>
-        <div class="footer-box2">
+        <div className="footer-box2">
           <h4>SHOPPING</h4>
           <ul>
             <li><a href="#">Computer Store</a></li>
@@ -20,7 +20,7 @@ export const Footer = ()=>{
             <li><a href="#">Sales & Discount</a></li>
           </ul>
         </div>
-        <div class="footer-box3">
+        <div className="footer-box3">
           <h4>Experience</h4>
           <ul>
             <li><a href="#">Contact Us</a></li>
@@ -29,15 +29,15 @@ export const Footer = ()=>{
             <li><a href="#">Return and Exchange</a></li>
           </ul>
         </div>
-        <div class="footer-box4">
+        <div className="footer-box4">
           <h4>NEWSLETTER</h4>
           <p>Be the first to know about new arrivals, sales & promos!</p>
           <input type="email" placeholder="Enter your email address" />
         </div>
       </div>
-      <div class="f-design">
+      <div className="f-design">
         <hr />
-        <div class="f-design-txt">
+        <div className="f-design-txt">
           <p>| Design and Code by Nikhil Kamboj |</p>
         </div>
       </div>
