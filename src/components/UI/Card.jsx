@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Card = ({ curMovie }) => {
   const { Title, Year, imdbID, Type, Poster } = curMovie;
   return (
@@ -10,7 +12,8 @@ export const Card = ({ curMovie }) => {
             <span>{Year}</span>
           </div>
           <div className="my-10">
-             <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold w-50 h-10 rounded">Watch Now</button>
+            <Link to={`/movies/${imdbID}`}>
+            <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold w-50 h-10 rounded">Watch Now</button></Link>
           </div>
         </div>
       </li>
