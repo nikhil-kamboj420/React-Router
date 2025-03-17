@@ -9,7 +9,7 @@ export const Footer = ()=>{
             Welcome to Kamboj EcomStore, your ultimate destination for
             cutting-edge gadgets!
           </p>
-          <img src="./images/cards.png" alt="image card of payment platforms" />
+          <img src="/images/cards.png" alt="image card of payment platforms" />
         </div>
         <div className="footer-box2">
           <h4>SHOPPING</h4>
@@ -38,7 +38,7 @@ export const Footer = ()=>{
       <div className="f-design">
         <hr />
         <div className="f-design-txt">
-          <p>| Design and Code by Nikhil Kamboj |</p>
+          <p className="text-2xl py-2">| Design and Code by Nikhil Kamboj |</p>
         </div>
       </div>
     </footer>
