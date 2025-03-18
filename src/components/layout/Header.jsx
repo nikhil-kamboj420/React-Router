@@ -11,7 +11,7 @@ export const Header = ()=>{
             </div>
          </div>
          <nav className="bg-[#f7f7f7] h-[7vh] text-2xl flex justify-around items-center">
-            <p>KambojFix</p>
+            <p>CinemaRouterFlix</p>
             <ul className="flex justify-around gap-5">
                <li><NavLink to="/">HOME</NavLink></li>
                <li><NavLink to="/about">ABOUT</NavLink></li>
