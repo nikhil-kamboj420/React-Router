@@ -45,5 +45,41 @@ VITE_Movie_API_KEY=your_api_key_here
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
 
-## License
-This project is licensed under the MIT License.
+## Project Structure
+
+The project structure for CinemaRouterFlix is organized as follows:
+
+```
+react_router_01/
+├── public/
+│   ├── images/
+│   ├── ...
+├── src/
+│   ├── api/
+│   │   ├── GetApiData.jsx
+│   │   ├── GetMovieDetails.jsx
+│   ├── assets/
+│   │   ├── images/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── AppLayout.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── Loading.jsx
+│   │   ├── UI/
+│   │   │   ├── Card.jsx
+│   │   │   ├── MovieDetails.jsx
+│   ├── pages/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── ErrorPage.jsx
+│   │   ├── Home.jsx
+│   │   ├── Movie.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+├── .env
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js
